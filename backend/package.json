@@ -1,0 +1,23 @@
+{
+  "name": "reactfileupload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "client": "file:client",
+    "create-react-app": "^3.4.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.9"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
