@@ -12,10 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.2",
     "client": "file:client",
+    "cors": "^2.8.5",
     "create-react-app": "^3.4.1",
     "express": "^4.17.1",
-    "express-fileupload": "^1.1.9"
+    "express-fileupload": "^1.1.9",
+    "nodemon": "^2.0.15"
   },
   "devDependencies": {
     "concurrently": "^5.2.0"
